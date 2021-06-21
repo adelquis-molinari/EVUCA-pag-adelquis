@@ -1,0 +1,99 @@
+/* -----------parallax ----------------*/
+.container{
+    max-width: 960;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+.parallax{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    background-image: linear-gradient(120deg, rgba(35, 149, 149, 0.699) 0%, rgba(85, 27, 35, 0.692) 100%), url("../img/Mehari/club_mehari.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #fff;
+}
+/*--------------- descripción------------- */
+.textos-proyecto{
+    grid-column: 1/-1;
+    /* text-align: center; */
+    margin: 5%;
+    height: 150px;
+}
+.textos-mehari{
+    grid-column: 1/-1;
+    margin: 5%;
+    height: 70px;
+}
+/*-----------gallery----------------------*/
+.D-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    padding: 10px;
+}
+.wrapper{
+    max-width: 1200px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-mehari{
+    padding: 7px;
+    width: calc(100% / 3);
+}
+.gallery img{
+    width: 300px;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+.img-mehari:hover{
+    transform: scale(2.5);
+}
+/*---------------tabla--------------------*/
+.flex{
+    display: flex;
+}
+.textos-tabla{
+    grid-column: 4/-1;
+    margin: 5%;
+    height: 350px;
+}
+.t-cl{
+    height: 100px;
+}
+table, th, td {    
+    border-collapse: collapse;
+    font-size: 0.8r;
+    border: 1px solid rgb(190,190,190);
+    padding : 10px 20px;
+}
+.completada{
+    background:#239595;
+}
+.procesando{
+    background: #42FBF2;
+}
+.espera{
+    background: #eb9d6854;
+}
+/*---------------video-------------*/
+.textos-video{
+    grid-column: 1/-1;
+    margin: 5%;
+    height: 400px;
+    text-align: center;
+}
+.video{
+    width: 550px;
+}
