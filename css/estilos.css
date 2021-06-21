@@ -218,6 +218,9 @@ footer{
     font-size: 30px;
     color: #cf1212;
 }
+
 p a{
     text-decoration: none;
-    color: #fff;
+    color: #eb9c68;
+    font-size: large;
+}
