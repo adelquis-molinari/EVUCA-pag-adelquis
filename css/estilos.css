@@ -75,6 +75,7 @@ nav ul :hover{
 
 
 /*----------------cabecera----------*/
+
 header{
     height: 450px;
 }
@@ -222,5 +223,4 @@ p a{
     text-decoration: none;
     color: #eb9c68;
     font-size: large;
-<<<<<<< HEAD
 }
